@@ -32,8 +32,9 @@ int main()
         
         cout <<"Enter Item Name Qty Price for the item #: " << endl;
         cin >> name >> qty >> price;
-        cin >> itemName.push_back(i);
-        
+        cin >> itemName.push_back(std::to_string(i));
+
+
     }
     
    /* for (int i = 0; i < size; i++ ){
